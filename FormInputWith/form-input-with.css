@@ -1,0 +1,46 @@
+.form-input-with {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 300px;
+}
+
+.form-input-with .label {
+  align-self: stretch;
+  color: var(--grey);
+  font-family: var(--navigated-text-normal-font-family);
+  font-size: var(--navigated-text-normal-font-size);
+  font-style: var(--navigated-text-normal-font-style);
+  font-weight: var(--navigated-text-normal-font-weight);
+  letter-spacing: var(--navigated-text-normal-letter-spacing);
+  line-height: var(--navigated-text-normal-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.form-input-with .field {
+  align-items: center;
+  align-self: stretch;
+  background-color: #f3f3f3;
+  display: flex;
+  flex: 0 0 auto;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.form-input-with .input {
+  color: var(--dark-grey);
+  font-family: var(--small-text-normal-font-family);
+  font-size: var(--small-text-normal-font-size);
+  font-style: var(--small-text-normal-font-style);
+  font-weight: var(--small-text-normal-font-weight);
+  letter-spacing: var(--small-text-normal-letter-spacing);
+  line-height: var(--small-text-normal-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

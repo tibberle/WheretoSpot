@@ -1,0 +1,53 @@
+.form-upload-with {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 300px;
+}
+
+.form-upload-with .label-2 {
+  align-self: stretch;
+  color: var(--grey);
+  font-family: var(--navigated-text-normal-font-family);
+  font-size: var(--navigated-text-normal-font-size);
+  font-style: var(--navigated-text-normal-font-style);
+  font-weight: var(--navigated-text-normal-font-weight);
+  letter-spacing: var(--navigated-text-normal-letter-spacing);
+  line-height: var(--navigated-text-normal-line-height);
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.form-upload-with .field-2 {
+  align-items: center;
+  background-color: var(--light-black);
+  display: inline-flex;
+  gap: 16px;
+  height: 48px;
+  padding: 16px;
+  position: relative;
+}
+
+.form-upload-with .input-3 {
+  color: var(--light-grey);
+  font-family: var(--small-text-normal-font-family);
+  font-size: var(--small-text-normal-font-size);
+  font-style: var(--small-text-normal-font-style);
+  font-weight: var(--small-text-normal-font-weight);
+  letter-spacing: var(--small-text-normal-letter-spacing);
+  line-height: var(--small-text-normal-line-height);
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.form-upload-with .icon-px-upload {
+  left: unset !important;
+  margin-bottom: -4.00px !important;
+  margin-top: -4.00px !important;
+  position: relative !important;
+  top: unset !important;
+}

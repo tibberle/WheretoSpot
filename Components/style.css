@@ -1,0 +1,132 @@
+.components {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.components .div-2 {
+  background-color: #000000;
+  height: 1399px;
+  position: relative;
+  width: 6495px;
+}
+
+.components .frame {
+  align-items: flex-end;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 304px;
+  position: absolute;
+  top: 205px;
+}
+
+.components .text-wrapper-2 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "Microsoft PhagsPa-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.10px;
+  line-height: 40px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.components .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.components .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "Microsoft PhagsPa-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 2557px;
+  letter-spacing: 0.10px;
+  line-height: 40px;
+  position: absolute;
+  top: 204px;
+  width: 148px;
+}
+
+.components .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 1490px;
+  position: absolute;
+  top: 205px;
+  width: 188px;
+}
+
+.components .frame-4 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.components .frame-5 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 1490px;
+  position: absolute;
+  top: 655px;
+  width: 119px;
+}
+
+.components .logo-instance {
+  align-self: stretch !important;
+  background-image: url(./logo.png) !important;
+  width: 100% !important;
+}
+
+.components .frame-6 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 1490px;
+  position: absolute;
+  top: 430px;
+}
+
+.components .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 1877px;
+  position: absolute;
+  top: 205px;
+}
+
+.components .form-input-with-label {
+  left: 2557px !important;
+  position: absolute !important;
+  top: 280px !important;
+}
+
+.components .form-dropdown-with-label {
+  left: 2894px !important;
+  position: absolute !important;
+  top: 280px !important;
+}
+
+.components .form-upload-with-label {
+  left: 3231px !important;
+  position: absolute !important;
+  top: 280px !important;
+}
