@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WheretoSpot/business/static/css/main.411c58b3.css",
-    "main.js": "/WheretoSpot/business/static/js/main.1a390025.js",
+    "main.js": "/WheretoSpot/business/static/js/main.c609844d.js",
     "static/media/Customer-landing-page.png": "/WheretoSpot/business/static/media/Customer-landing-page.4fa146141e9222f25583.png",
     "static/media/WTO-background.png": "/WheretoSpot/business/static/media/WTO-background.d9ff65e0c5fc5cac1113.png",
     "static/media/about.png": "/WheretoSpot/business/static/media/about.9171251cd059a2735f28.png",
@@ -33,10 +33,10 @@
     "static/media/icon-upload.svg": "/WheretoSpot/business/static/media/icon-upload.ac604a6dad393559ef5e15aa5ebf27a1.svg",
     "static/media/icon-dropdown.svg": "/WheretoSpot/business/static/media/icon-dropdown.5b06bf8fb395c9ae21e10095440326b2.svg",
     "main.411c58b3.css.map": "/WheretoSpot/business/static/css/main.411c58b3.css.map",
-    "main.1a390025.js.map": "/WheretoSpot/business/static/js/main.1a390025.js.map"
+    "main.c609844d.js.map": "/WheretoSpot/business/static/js/main.c609844d.js.map"
   },
   "entrypoints": [
     "static/css/main.411c58b3.css",
-    "static/js/main.1a390025.js"
+    "static/js/main.c609844d.js"
   ]
 }
