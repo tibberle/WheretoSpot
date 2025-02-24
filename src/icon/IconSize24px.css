@@ -1,0 +1,7 @@
+.icon-size-24px{
+    height: 24px;
+    width: 24px;
+    svg{
+        fill: currentColor;
+    }
+}

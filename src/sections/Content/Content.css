@@ -1,0 +1,78 @@
+
+  .content-navigate{
+    padding: var(--spacing-96) 0;
+    display: flex;
+    justify-content: center;
+    .main {
+        width: 928px;
+        padding: 0 var(--spacing-48);
+        display: flex;
+        gap: var(--spacing-48);
+        .content {
+            width: 700px;
+            display: flex;
+            flex-direction: column;
+            gap: var(--spacing-40);
+            
+            .header {
+                display: flex;
+                flex-direction: column;
+                gap: var(--spacing-24);
+                p,b {
+                    color: var(--dark-grey);
+                  }
+            }
+            .button-whatsapp{
+                width: fit-content;
+                text-decoration: none;
+            }
+            .key {
+                display: flex;
+                flex-direction: column;
+                gap: var(--spacing-32);
+                .point {
+                    display: flex;
+                    flex-direction: column;
+                    gap: var(--spacing-16);
+                    p {
+                        color: var(--dark-grey);
+                      }
+                    .icon {
+                        color: var(--branding-2);
+                    }
+                }
+            }
+          }
+        .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-repeat: round;
+          }
+      }
+
+  }
+
+
+  /* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .content-navigate .image {
+        display: none;
+    }
+    .content-navigate .main {
+        width: -webkit-fill-available;
+        flex-direction: column-reverse !important;
+        .image{
+            height: 200px;
+        }
+        .content{
+            width: -webkit-fill-available;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .content-navigate .main {
+        padding: 0 var(--spacing-24);
+    }
+}

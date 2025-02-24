@@ -1,0 +1,191 @@
+.nav-container {
+    width: 100%;
+    background-color: var(--black);
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-24) 0;
+}
+  
+.main-content {
+    width: 928px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 var(--spacing-48);
+    gap: var(--spacing-48);
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: var(--spacing-48);
+    align-items: center;
+    .navigated-text-normal{
+        color: var(--light-grey);
+        text-decoration: none;
+        cursor: pointer;
+        transition: var(--transition-default);
+    }
+    .navigated-text-normal:hover {
+        filter: var(--hover-effect-for-navigation);
+    }
+    .navigated-text-normal:active {
+        filter: var(--active-effect-for-navigation);
+    }
+}
+  
+
+
+
+.dropdown-menu {
+    position: absolute;
+    background-color: var(--black);
+    padding: var(--spacing-16);
+    z-index: 1000;
+    .navigated-text-normal {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-8);
+        color: var(--light-grey);
+        text-decoration: none;
+        cursor: pointer;
+        padding: var(--spacing-8) var(--spacing-16);
+        transition: var(--transition-default);
+    }
+    
+    .navigated-text-normal::after, .navigated-text-normal::before {
+        content: "";
+        display: list-item;
+        width: -webkit-fill-available;
+        height: 1px;
+        background-color: var(--grey);
+    }
+    
+    .navigated-text-normal:hover {
+        filter: var(--hover-effect-for-navigation);
+    }
+    
+    .navigated-text-normal:active {
+        filter: var(--active-effect-for-navigation);
+    }
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 1024px) {
+    .main-content {
+        width: 100%;
+        padding: 0 var(--spacing-48);
+    }
+}
+
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: var(--spacing-8);
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--white);
+    transition: all 0.3s ease;
+}
+
+.display-non{
+    display: none;
+}
+
+@media (max-width: 500px) {
+    .main-content {
+        justify-content: space-between;
+        padding: 0 var(--spacing-24);
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .dropdown-menu {
+        position: unset;
+    }
+
+    .nav-mobile{
+        display: flex;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 100000;
+        width: calc(100vw - var(--spacing-24)*2);
+        height: calc(100vh - var(--spacing-24)*2);
+        background-color: var(--black);
+        padding: var(--spacing-24);
+        main{
+            width: -webkit-fill-available;
+            display: flex;
+            gap: var(--spacing-48);
+            flex-direction: column;
+            header{
+                display: flex;
+                flex-direction: column;
+                gap: var(--spacing-24);
+                color: var(--dark-grey);
+                .navigated-text-normal{
+                    width: fit-content;
+                }
+                img{
+                    width: fit-content;
+                }
+                .top-nav-container{
+                    display: flex;
+                    background-color: transparent;
+                    padding: 0;
+                    nav .navigated-text-normal{
+                        flex-direction: row;
+                        justify-content: space-between;
+                    }
+                    nav .navigated-text-normal::after,nav .navigated-text-normal::before{
+                        display: none;
+                    }
+                }
+            }
+            .nav {
+                overflow-y: scroll;
+                flex-direction: column;
+                padding: 0;
+                align-items: flex-start;
+                gap: var(--spacing-24);
+                .navigated-text-normal{
+                    color: var(--light-grey);
+                    text-decoration: none;
+                }
+                div{
+                    width: -webkit-fill-available;
+                    display: flex;
+                    flex-direction: column;
+                    gap: var(--spacing-8);
+                }
+                div::after{
+                    content: "";
+                    display: block;
+                    width: -webkit-fill-available;
+                    height: 1px;
+                    background-color: var(--grey);
+                }
+                div::before{
+                    content: "";
+                    display: block;
+                    width: -webkit-fill-available;
+                    height: 1px;
+                    background-color: var(--grey);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.form-upload-with {
+    color: var(--light-grey);
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-8);
+    position: relative;
+    width: fit-content;
+    label{
+        align-self: stretch;
+        color: var(--grey);
+        margin-top: -1.00px;
+        position: relative;
+    }
+    div{
+        input {
+            color: transparent;
+            transition: var(--transition-default);
+        }
+        input::-webkit-file-upload-button {
+            visibility: hidden;
+        }
+        input::before {
+            width: 300px !important;
+            content: 'Upload File';
+            margin-top: -1.00px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+            color: var(--light-grey);
+            align-items: center;
+            background-color: var(--light-black);
+            display: inline-flex;
+            gap: var(--spacing-16);
+            height: 47px;
+            padding: 0 var(--spacing-16);
+            border: 0;
+            cursor: pointer;
+        }
+        input:hover {
+            filter: var(--hover-effect);
+        }
+        input:active {
+            filter: var(--active-effect);
+        }
+        .icon-size-24px {
+            position: absolute;
+            right: var(--spacing-16);
+            top: 36px;
+        }
+    }
+}

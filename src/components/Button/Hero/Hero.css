@@ -1,0 +1,27 @@
+.button-hero {
+    color: var(--black);
+    align-items: center;
+    background-color: var(--white);
+    display: inline-flex;
+    justify-content: center;
+    padding: var(--spacing-16) var(--spacing-40);
+    position: relative;
+    transition: var(--transition-default);
+    text-decoration: none;
+    .navigated-text-bold{
+        margin-top: -1.00px;
+        position: relative;
+        text-align: center;
+        white-space: nowrap;
+        width: fit-content;
+    }
+}
+
+.button-hero:hover {
+    filter: var(--hover-effect);
+    cursor: pointer;
+}
+
+.button-hero:active {
+    filter: var(--active-effect);
+}
