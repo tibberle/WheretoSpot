@@ -17,7 +17,7 @@ const App: React.FC = () => {
       <GlobalStyles />
       <TextStyles />
       <Routes>
-        <Route path="/business" element={<BusinessPage />} />
+        <Route path="/" element={<BusinessPage />} />
         <Route path="/customer" element={<CustomerPage />} />
         <Route path="/about-us" element={<AboutPage />} />
         <Route path="/business/add-a-new-spot" element={<AddNewSpotPage />} />
