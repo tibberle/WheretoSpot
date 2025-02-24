@@ -1,6 +1,6 @@
 {
   "homepage" : "http://tibberle.github.io/WheretoSpot/",
-  "name": "my-react-app",
+  "name": "wheretospot",
   "version": "1.0.0",
   "private": true,
   "scripts": {
