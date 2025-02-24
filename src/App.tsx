@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import GlobalStyles from './styles/GlobalStyles';
 import TextStyles from './styles/text';
 import PageOutline from './styles/PageOutline';
@@ -17,7 +17,7 @@ const App: React.FC = () => {
       <GlobalStyles />
       <TextStyles />
       <Switch>
-        <Route exact path="/business" component={BusinessPage} />
+        <Route exact path="/" component={BusinessPage} />
         <Route exact path="/customer" component={CustomerPage} />
         <Route path="/about-us" component={AboutPage} />
         <Route path="/business/add-a-new-spot" component={AddNewSpotPage} />
