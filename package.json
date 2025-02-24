@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://tibberle.github.io/WheretoSpot",
+  "homepage": "https://tibberle.github.io/WheretoSpot",
   "name": "wheretospot",
   "version": "1.0.0",
   "private": true,
@@ -14,7 +14,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^5.3.4",
+    "react-router-dom": "^7.2.0",
     "react-scripts": "^5.0.1",
     "react-svg": "^16.3.0",
     "styled-components": "^5.3.3",
